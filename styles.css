@@ -1,0 +1,99 @@
+/* Import Google Fonts for a modern look */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+/* Set background color and font for the whole page */
+body {
+    background-color: #F8C8DC; /* bunny tail pink */
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+/* Style for the profile card container */
+.profile-card {
+    background: #fff;
+    border: 2px solid #F6ABB6;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(160, 103, 105, 0.08);
+    max-width: 500px;
+    margin: 3rem auto; /* center horizontally with margin */
+    padding: 2.5rem 2rem;
+}
+
+/* Center main headings inside the card */
+h1, h2 {
+    text-align: center;
+}
+
+/* Style for the main heading (name) */
+h1 {
+    font-size: 3rem;
+    color: #6D2E46; /* deep mauve for contrast */
+}
+
+/* Style for the subheading (profession) */
+h2 {
+    font-size: 2rem;
+    color: #A26769; /* muted rose for contrast */
+}
+
+/* Style for the profile description paragraph */
+p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Container for centering the list and its heading */
+.center-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Center the list heading */
+.center-list h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Remove bullet points and center the list */
+.center-list ul {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none; /* removes bullets */
+}
+
+/* Style each list item with spacing and hover effect */
+.center-list li {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+/* Highlight list item on hover */
+.center-list li:hover {
+    background: #f6abb633;
+}
+
+/* Style for the links in the list */
+.center-list a {
+    text-decoration: none;
+    color: #6D2E46;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Style for the profile image */
+.profile-img {
+    display: block;
+    margin: 0 auto 1.2rem auto; /* center image and add bottom margin */
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* ensure image covers the area */
+    border-radius: 50%; /* make image circular */
+    box-shadow: 0 2px 8px rgba(160, 103, 105, 0.10);
+}
